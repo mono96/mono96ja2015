@@ -11,5 +11,9 @@ function theme_enqueue_styles() {
     );
 }
 
+if ( strtoupper( get_locale() ) == 'JA' ) {
+		wp_enqueue_style( 'mono96_ja', get_template_directory_uri().'/css/ja.css' );
+}
+
 //管理画面  CSS 読み込み
-add_editor_style("editor-style.css");
+add_editor_style('/csseditor-style.css');
