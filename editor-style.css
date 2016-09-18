@@ -1,0 +1,7 @@
+@import url("style.css"); 
+
+body#tinymce.wp-editor a {
+	color:#1111ff;
+	text-decoration: none;
+  	border-bottom: 1px solid #1111cc;
+}

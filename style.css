@@ -1,0 +1,81 @@
+/*
+Theme Name: mono96ja2015
+Author: mono96
+Author URI: https://mono96.jp/
+Description: Japanese child theme for the Twenty Fifteen theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, responsive-layout, japanese,
+Template: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Enter Your Custom CSS Here */
+
+body {
+	font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+    background:#ffffff;
+}
+
+body:before{
+	background:#fcfcfc;
+}
+
+li {
+	margin-left: 40px;
+}
+
+blockquote {
+	background-color: #ddd;
+	margin-left: 10px;
+	padding: 1em 1em 1em 3em;
+	position: relative;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+blockquote:before {
+	content: '“';
+	font-size: 600%;
+	line-height: 1em;
+	font-family: ”ＭＳ Ｐゴシック”, sans-serif; 
+	color: #999;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.entry-content h1, .entry-summary h1, .page-content h1, .comment-content h1 {
+	font-size: 36px;
+}
+
+.entry-content h2, .entry-summary h2, .page-content h2, .comment-content h2 {
+	font-size: 32px;
+}
+
+.entry-content a {
+    color: #1111cc;
+    text-decoration: none;
+  	border-bottom: 1px solid #1111cc;
+}
+
+.search-toggle {
+    background-color: #1111cc;
+}
+
+button, .button, input[type="button"], input[type="reset"], input[type="submit"] {
+   background-color: #1111cc;
+}
+
+button:hover, button:focus, .button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus { 
+    background-color: #0000ff;
+}
+
+img.entry-img { 
+     border:1px solid #999; 
+     padding:5px; 
+     background-color:#ffffff;
+}
