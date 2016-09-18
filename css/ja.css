@@ -1,3 +1,16 @@
 body {
+	font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+    background:#ffffff;
     color:#ff0000;
+}
+
+blockquote:before {
+	content: '“';
+	font-size: 600%;
+	line-height: 1em;
+	font-family: ”ＭＳ Ｐゴシック”, sans-serif; 
+	color: #999;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
