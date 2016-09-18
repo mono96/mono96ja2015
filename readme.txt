@@ -1,7 +1,7 @@
 mono96ja2015
 ==============================
 mono96ja2015 is a WordPress theme that is the parent theme of Twenty Fifteen for Japanese.
-
+test
 
 License
 --------------------
